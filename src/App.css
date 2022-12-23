@@ -1,0 +1,91 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+ font-family:  'Roboto', sans-serif;
+}  
+
+/* Main-nav CSS */
+
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5em;
+ 
+}
+
+.main-nav p {
+  margin-left: 4em;
+  font-size: 25px;
+}
+
+.main-nav li {
+  list-style: none;
+  display: inline;
+  position: relative;
+  left: 60em;
+  margin-left: 3em;
+}
+
+.main-nav li:hover {
+ text-decoration: underline;
+ 
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+  position: relative;
+  bottom: 4em;
+}
+
+.ceo-section {
+  display: flex;
+  justify-content:space-evenly;
+}  
+
+/* Main Component CSS */
+
+.ceo-info {
+  font-size: 32px;
+  position: relative;
+  top: 5em;
+}
+
+button {
+  margin-top: 1em;
+  padding: 1em;
+  font-size: 20px;
+  border-radius: 50px;
+} 
+
+.best-workplace {
+    margin-top: 15em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.workplace-info {
+  font-size: 32px;
+  position: relative;
+  top: 5em;
+
+} 
+
+.what-we-do {
+  margin-top: 15em;
+  display: flex;
+  justify-content: space-evenly;
+} 
+
+.what-we-do-info {
+  font-size: 32px;
+  position: relative;
+  top: 5em;
+}
